@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		C30DB1F01D55470F00431545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30DB1EF1D55470F00431545 /* AppDelegate.swift */; };
-		C30DB1F21D55470F00431545 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30DB1F11D55470F00431545 /* ViewController.swift */; };
 		C30DB1F51D55470F00431545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30DB1F31D55470F00431545 /* Main.storyboard */; };
 		C30DB1F71D55470F00431545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C30DB1F61D55470F00431545 /* Assets.xcassets */; };
 		C30DB1FA1D55470F00431545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30DB1F81D55470F00431545 /* LaunchScreen.storyboard */; };
+		C30DB2061D55498800431545 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30DB2051D55498800431545 /* ItemsViewController.swift */; };
+		C30DB2081D5549DC00431545 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30DB2071D5549DC00431545 /* Item.swift */; };
+		C30DB20A1D554D2B00431545 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30DB2091D554D2B00431545 /* ItemStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C30DB1EC1D55470F00431545 /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C30DB1EF1D55470F00431545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C30DB1F11D55470F00431545 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C30DB1F41D55470F00431545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C30DB1F61D55470F00431545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C30DB1F91D55470F00431545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C30DB1FB1D55470F00431545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C30DB2051D55498800431545 /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		C30DB2071D5549DC00431545 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		C30DB2091D554D2B00431545 /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		C30DB1EE1D55470F00431545 /* Homepwner */ = {
 			isa = PBXGroup;
 			children = (
+				C30DB2051D55498800431545 /* ItemsViewController.swift */,
 				C30DB1EF1D55470F00431545 /* AppDelegate.swift */,
-				C30DB1F11D55470F00431545 /* ViewController.swift */,
 				C30DB1F31D55470F00431545 /* Main.storyboard */,
+				C30DB2071D5549DC00431545 /* Item.swift */,
+				C30DB2091D554D2B00431545 /* ItemStore.swift */,
 				C30DB1F61D55470F00431545 /* Assets.xcassets */,
 				C30DB1F81D55470F00431545 /* LaunchScreen.storyboard */,
 				C30DB1FB1D55470F00431545 /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C30DB1F21D55470F00431545 /* ViewController.swift in Sources */,
 				C30DB1F01D55470F00431545 /* AppDelegate.swift in Sources */,
+				C30DB2081D5549DC00431545 /* Item.swift in Sources */,
+				C30DB20A1D554D2B00431545 /* ItemStore.swift in Sources */,
+				C30DB2061D55498800431545 /* ItemsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
